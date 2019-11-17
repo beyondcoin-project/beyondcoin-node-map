@@ -1,4 +1,4 @@
-![image](https://beyondcoin.io/beyondcoin.png)
+![image](https://beyondcoin.io/beyondcoin-200x200.png)
 
 
 # Beyondcoin node map
