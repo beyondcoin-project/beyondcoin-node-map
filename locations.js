@@ -10,7 +10,7 @@ const getPeers = async () => {
 		"params": [],
 		"id": "foo"
       }
-        const res = await axios.post('http://user:password@127.0.0.1:3332/', params);
+        const res = await axios.post('http://user:password@127.0.0.1:10332/', params);
 		//console.log(res.data.result);
         if (!res.data.result) throw new Error('Missing peers.');
         console.log(`${res.data.result.length} peers found`);
