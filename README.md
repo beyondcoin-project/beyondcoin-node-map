@@ -41,7 +41,7 @@ npm i
 ```
 ## To Run
 ```
-sudo node app.js`
+sudo node app.js
 ```
 
 ## Open http://your-website.com. (default port is 80)
@@ -49,11 +49,5 @@ sudo node app.js`
 It's caching Beyondcoin Node IP's every 24 hrs into `.cache` folder.
 
 
-![Map](https://user-images.githubusercontent.com/51257210/66169341-4ba37180-e5fd-11e9-9069-24eae46dc2b6.png)
+![Map](https://cdn.beyondcoin.io/assets/images/byndnode/beyondcoin-map.png)
 		
-
-
-#### Thanks
-
-Beyondcoin-Project
-SumcoinLabs
