@@ -283,15 +283,13 @@
             </div>
             <div class="menuwrapper">
                 <hr class="sep" />
+				<div id="country-list"></div>
+				<br/>
+                <strong class="cat">Countries</strong><br/>
                 <div id="country-list"></div>
-                <strong class="cat">Countries</strong><br/><br/>
-                <div id="country-list"></div>
-                <br>
-                <br/><br/>
                 <div id="chart"></div>
-
                 <div id="chartinfo"><strong>Did you know?</strong><br />
-                    <p>With just a few clicks, you can run your Desktop Wallet as your own node on the Beyondcoin Network.  Also, Pi users, see the link for how to run a Raspberry Pi Node. While your Node supports Beyondcoin Network, you can earn BYND from mining too!</div>
+                    <p>You can run your Beyondcoin Desktop Wallet as your own node on the Beyondcoin Network.</div>
                 <div style="clear:both;"></div>
             </div>
             <div class="menuwrapper">
@@ -339,7 +337,7 @@
                 <div class="sep"></div>
                 <br />
                 All rights reserved. | Sourcecode: <a href="https://github.com/beyondcoin-project/beyondcoin" target="_blank">GitHub</a><br />
-                Copyright &copy; 2017 &mdash; 2019 <a href="https://beyondcoin.io">beyondcoin.io</a>
+                Copyright &copy; 2019 &mdash; 2020 <a href="https://beyondcoin.io">Beyondcoin.io</a>
             </div>
         </div>
         <!-- Show nodes on map -->
@@ -390,7 +388,7 @@ return Math.round(number * factor) / factor;
 	const renderCountries = () => {
 
 	// shows current nodes
-	document.getElementById('countag').innerHTML = '<strong>' + numberWithCommas(countNodes) + ' nodes</strong> and counting...';
+	document.getElementById('countag').innerHTML = '<strong>There are currently </strong>' + '<strong>' + numberWithCommas(countNodes) + ' nodes.</strong>';
 
 	var output = "";
 	var locationsArrayNames = "";
