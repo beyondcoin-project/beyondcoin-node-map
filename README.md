@@ -49,4 +49,4 @@ sudo node app.js
 It's caching Beyondcoin Node IP's every 24 hrs into `.cache` folder.
 
 
-![Map](https://cdn.beyondcoin.io/images/byndnode/beyondcoin-map.png)
+![Map](https://github.com/beyondcoin-project/beyondcoin-node-map/blob/master/images/Beyondcoin-map.png?raw=true)
